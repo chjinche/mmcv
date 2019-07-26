@@ -7,7 +7,7 @@ import numpy
 from Cython.Distutils import build_ext
 
 install_requires = [
-    'numpy>=1.11.1', 'pyyaml', 'six', 'addict', 'requests', 'opencv-python',
+    'numpy>=1.11.1', 'pyyaml', 'six', 'addict', 'requests',
     'Cython'
 ]
 if sys.version_info < (3, 3):
